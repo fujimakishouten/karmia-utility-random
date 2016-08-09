@@ -1,0 +1,23 @@
+{
+    "name": "karmia-utility-random",
+    "version": "0.1.0",
+    "description": "Karmia utility random module",
+    "homepage": "https://github.com/fujimakishouten/karmia-utility-random",
+    "license": "MIT",
+    "author": "Kazuma Fujimaki <fujimaki-k@fujimakishouten.com>",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fujimakishouten/karmia-utility-random.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha ./test"
+    },
+    "dependencies": {
+        "lodash": ">=4.11.1"
+    },
+    "devDependencies": {
+        "mocha": ">=2.4.5",
+        "expect.js": ">=0.3.1"
+    }
+}

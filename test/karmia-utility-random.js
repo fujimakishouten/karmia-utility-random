@@ -4,6 +4,7 @@
 'use strict';
 
 
+
 // Variables
 const expect = require('expect.js'),
     karmia_utility_random = require('../lib'),

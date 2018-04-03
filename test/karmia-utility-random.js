@@ -8,7 +8,7 @@
 // Variables
 const expect = require('expect.js'),
     karmia_utility_random = require('../lib'),
-    krandom = karmia_utility_random();
+    krandom = new karmia_utility_random();
 
 
 // Test

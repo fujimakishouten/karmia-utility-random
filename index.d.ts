@@ -10,5 +10,4 @@ declare class KarmiaUtilityRandom {
     integer(max?: number, min?: number): number;
 }
 
-declare function karmia_utility_random(options: object): KarmiaUtilityRandom;
-export = karmia_utility_random;
+export = KarmiaUtilityRandom;

@@ -3,7 +3,7 @@ Karmia utility random module
 
 ## Usage
 ```JavaScript
-const karmia_utility_random = require('karmia-utility-random'),
+const karmia_utility_random = require('karmia-utility-random').default,
     krandom = new karmia_utility_random();
 ```
 

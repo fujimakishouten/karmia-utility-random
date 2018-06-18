@@ -6,7 +6,7 @@
 
 
 // Import modules
-import KarmiaUtilityString = require("karmia-utility-string");
+import KarmiaUtilityString from "karmia-utility-string";
 
 
 declare interface Options {
@@ -97,7 +97,7 @@ class KarmiaUtilityRandom {
 
 
 // Export module
-export = KarmiaUtilityRandom;
+export default KarmiaUtilityRandom;
 
 
 

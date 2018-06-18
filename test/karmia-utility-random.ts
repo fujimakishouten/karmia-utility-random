@@ -5,9 +5,14 @@
 
 
 
+// Declaration
+declare function require(id: string): any;
+
+
 // Import modules
-import KarmiaUtilityRandom = require('../');
+import KarmiaUtilityRandom from "../";
 const expect = require("expect.js");
+
 
 // Variables
 const random = new KarmiaUtilityRandom();
